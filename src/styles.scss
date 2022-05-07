@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+@font-face {
+    font-family: "Product Sans";
+    src: local("Product Sans"), url(/assets/product-sans/Product\ Sans\ Regular.ttf) format("truetype");
+}
+
+
+html,
+body {
+  height: 100%;
+  font-family: 'Product Sans' !important;
+}
+h1, h2, h3, h4, h5, button {
+  font-family: 'Product Sans' !important;
+  color: #363636;
+}
+h1 {
+  font-size: 48px !important;
+}
+h2 {
+  font-size: 40px !important;
+}
+h3 {
+  font-size: 36px !important;
+}
+h4 {
+  font-size: 24px !important;
+}
+h5 {
+  font-size: 16px !important;
+}
+body {
+  margin: 0;
+  color: #5e5e5e;
+  font-size: 14px !important;
+}
+.row-align {
+  display: flex;
+  flex-direction: row;
+}
+.column-align {
+  display: flex;
+  flex-direction: column;
+}
+.dead-center {
+  align-items: center;
+  justify-content: center;
+}
+.simple-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

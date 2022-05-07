@@ -1,0 +1,23 @@
+.top-container {
+    height: 400px;
+    .top-nav {
+        height: 56px;
+    }
+    .slogan-container {
+        height: calc(100% - 56px);
+    }
+}
+.content {
+    width: 100%;
+    .cardlist {
+        width: 80%;
+        .card {
+            font-family: "Product Sans";
+            width: 300px;
+            cursor: pointer;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
