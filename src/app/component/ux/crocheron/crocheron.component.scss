@@ -28,6 +28,17 @@
         .background {
             height: 300px;
         }
+        .process {
+            height: 300px;
+            .icon-text-pair {
+                width: 200px;
+                height: 200px;
+                justify-content: flex-start;
+                div {
+                    padding: 8px;
+                }
+            }
+        }
     }
     
 }
