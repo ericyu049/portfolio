@@ -52,9 +52,25 @@
             }
         }
         .recruit {
-            height: 900px;
+            height: 1000px;
             img {
                 width: 50%;
+                border-radius: 8px;
+                margin: 15px;
+            }
+        }
+        .testing {
+            height: 500px;
+            img {
+                width: 50%;
+                border-radius: 8px;
+                margin: 15px;
+            }
+        }
+        .analyze {
+            height: 5800px;
+            img {
+                width: 80%;
                 border-radius: 8px;
                 margin: 15px;
             }
