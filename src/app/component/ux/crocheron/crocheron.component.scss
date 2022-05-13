@@ -16,6 +16,7 @@
             .icon-text-pair {
                 width: 250px;
                 height: 200px;
+                max-height: 200px;
                 justify-content: flex-start;
                 div {
                     padding: 8px;
@@ -24,12 +25,15 @@
         }
         .summary{
             height: 300px;
+            max-height: 300px;
         }
         .background {
+            max-height: 300px;
             height: 300px;
         }
         .process {
             height: 400px;
+            max-height: 400px;
             .icon-text-pair {
                 width: 200px;
                 height: 200px;
@@ -41,42 +45,51 @@
         }
         .prepare {
             height: 1200px;
+            max-height: 1200px;
             mat-card {
                 width: 700px;
                 margin: 15px;
             }
             img {
                 width: 50%;
+                max-width: 600px;
                 border-radius: 8px;
                 margin: 15px;
             }
         }
         .recruit {
             height: 1000px;
+            max-height: 1000px;
             img {
                 width: 50%;
+                max-width: 500px;
                 border-radius: 8px;
                 margin: 15px;
             }
         }
         .testing {
             height: 500px;
+            max-height: 500px;
             img {
                 width: 50%;
+                max-width: 700px;
                 border-radius: 8px;
                 margin: 15px;
             }
         }
         .analyze {
             height: 5800px;
+            max-height: 5800px;
             img {
                 width: 80%;
+                max-width: 800px;
                 border-radius: 8px;
                 margin: 15px;
             }
         }
         .conclusion {
             height: 300px;
+            max-height: 300px;
         }
     }
     
